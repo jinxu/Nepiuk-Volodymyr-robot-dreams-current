@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class Lesson2 : MonoBehaviour
 {
-    private List<float> _floatList;
+    private List<float> _floatList = new List<float>();
     [SerializeField] private float _floatX;
 
     [ContextMenu("Add to List")]
